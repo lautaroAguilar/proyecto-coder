@@ -9,17 +9,18 @@ html{
     scroll-behavior: smooth;
 
 }
+
 .container-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: minmax(7rem, auto);
-    grid-template-areas:
+    grid-template-areas:    
      "landing landing"
-     "wwa wwa"
-     "catalogo catalogo"
+     "carrusel carrusel"
      "footer footer";
      
 }
+
 .container-landing{
     grid-area: landing;
     display: flex;
@@ -63,7 +64,7 @@ html{
     margin: 120px 60px 300px 60px;
     color: #faf6f6;
 }
-.btn {
+.boton {
     display: inline-block;
     margin: 5rem 0; 
     width: 150px;
@@ -74,7 +75,7 @@ html{
     align-self: center;
     
 }
-.btn a{
+.boton a{
     text-decoration: none;
     color: black;
 }
@@ -117,6 +118,13 @@ html{
     border-radius: 5px;
     background-color: #0f0e0e;
     color: #faf6f6;
+}
+/* Carrusel */
+.carousel{
+    grid-area: carrusel;
+}
+.carousel-item img{
+    height: auto;
 }
 /* Quienes somos? */
 .wwa {
