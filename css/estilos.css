@@ -1,22 +1,23 @@
-
-
-*{
+/* No CSS *//*# sourceMappingURL=estilos.css.map */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.landing-page{
+.landing-page {
     display: flex;
     height: 100vh;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url(./assets/Header-M.jpg);
+    background-image: url(../assets/Header-M.jpg); 
 }
-.nav{
+
+.nav {
     background: rgba(128, 255, 0, 0);
 }
-.titulo-principal{
+
+.titulo-principal {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -24,31 +25,36 @@
     text-align: center;
     padding: 1rem;
 }
-.titulo-principal h1{
+
+.titulo-principal h1 {
     color: #faf6f6;
     line-height: 2.3rem;
 }
-.boton{
+
+.boton {
     display: inline-block;
     width: 8rem;
-    padding: .8rem ;
+    padding: .8rem;
     background-color: #080808;
     text-align: center;
     align-self: center;
     border-radius: .5rem;
     margin-top: 4rem;
 }
-.titulo-principal a{
+
+.titulo-principal a {
     text-decoration: none;
     color: #faf6f6;
 }
-.arrow{
+
+.arrow {
     display: flex;
     justify-content: flex-end;
     margin: 1rem;
     padding: 1rem;
 }
-.arrow svg{
+
+.arrow svg {
     width: 2rem;
     height: auto;
     color: #faf6f6;
