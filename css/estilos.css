@@ -1,61 +1,144 @@
-/* No CSS *//*# sourceMappingURL=estilos.css.map */
+.navbar-toggler-icon .navbar-toggler {
+  color: #0f0e0e;
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .landing-page {
-    display: flex;
-    height: 100vh;
-    flex-direction: column;
-    justify-content: space-between;
-    background-image: url(../assets/Header-M.jpg); 
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-image: url(../assets/Header-M.jpg);
 }
 
 .nav {
-    background: rgba(128, 255, 0, 0);
+  background: rgba(128, 255, 0, 0);
 }
 
 .titulo-principal {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 12rem;
-    text-align: center;
-    padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 12rem;
+  text-align: center;
+  padding: 1rem;
 }
 
 .titulo-principal h1 {
-    color: #faf6f6;
-    line-height: 2.3rem;
+  color: #faf6f6;
+  line-height: 2.3rem;
 }
 
 .boton {
-    display: inline-block;
-    width: 8rem;
-    padding: .8rem;
-    background-color: #080808;
-    text-align: center;
-    align-self: center;
-    border-radius: .5rem;
-    margin-top: 4rem;
+  display: inline-block;
+  width: 8rem;
+  padding: .8rem;
+  background-color: #080808;
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border-radius: .5rem;
+  margin-top: 4rem;
 }
 
 .titulo-principal a {
-    text-decoration: none;
-    color: #faf6f6;
+  text-decoration: none;
+  color: #faf6f6;
 }
 
 .arrow {
-    display: flex;
-    justify-content: flex-end;
-    margin: 1rem;
-    padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 .arrow svg {
-    width: 2rem;
-    height: auto;
-    color: #faf6f6;
+  width: 2rem;
+  height: auto;
+  color: #faf6f6;
 }
+
+/* CARRUSEL */
+/* FOOTER */
+.footer {
+  background-color: #0f0e0e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+  /* redes */
+  /* contacto */
+}
+
+.footer h5 {
+  color: #faf6f6;
+  text-align: center;
+  margin-top: -.5rem;
+}
+
+.footer .footer__redes--iconos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  width: 100%;
+}
+
+.footer .footer__redes--iconos .icono {
+  margin: 0 1.5rem;
+}
+
+.footer .footer__redes--iconos .icono svg {
+  color: #faf6f6;
+}
+
+.footer .footer__contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer__contacto label {
+  color: #faf6f6;
+}
+/*# sourceMappingURL=estilos.css.map */

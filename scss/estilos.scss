@@ -1,3 +1,115 @@
-$color1: #0a0a0a;
-$color2: #faf6f6;
+$primary: #0f0e0e;
+$secondary: #faf6f6;
 
+$theme-colors: ("primary": $primary,
+                "secondary": $secondary, );
+
+.navbar-toggler-icon {
+    .navbar-toggler {
+        color: #0f0e0e;
+    }
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing-page {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../assets/Header-M.jpg);
+}
+
+.nav {
+    background: rgba(128, 255, 0, 0);
+}
+
+.titulo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 12rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.titulo-principal h1 {
+    color: #faf6f6;
+    line-height: 2.3rem;
+}
+
+.boton {
+    display: inline-block;
+    width: 8rem;
+    padding: .8rem;
+    background-color: #080808;
+    text-align: center;
+    align-self: center;
+    border-radius: .5rem;
+    margin-top: 4rem;
+}
+
+.titulo-principal a {
+    text-decoration: none;
+    color: #faf6f6;
+}
+
+.arrow {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.arrow svg {
+    width: 2rem;
+    height: auto;
+    color: #faf6f6;
+}
+/* CARRUSEL */
+.btn-primary{
+
+}
+
+/* FOOTER */
+.footer{
+    background-color: $primary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;
+    /* redes */
+    h5{
+        color: $secondary;
+        text-align: center;
+        margin-top: -.5rem;
+    }
+    
+    .footer__redes--iconos{
+        display: flex;
+        padding: 1rem;
+        width: 100%;
+        
+        .icono{
+            margin: 0 1.5rem;
+            svg {
+                color: $secondary;
+            }
+        }
+    }
+    /* contacto */
+    .footer__contacto{
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        label{
+            color: $secondary;
+            
+        }
+    }
+}
