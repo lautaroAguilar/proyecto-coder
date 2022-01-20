@@ -1,3 +1,4 @@
+/* IMPORTS */
 .navbar-toggler-icon .navbar-toggler {
   color: #0f0e0e;
 }
@@ -51,9 +52,9 @@
 
 .boton {
   display: inline-block;
-  width: 8rem;
-  padding: .8rem;
-  background-color: #080808;
+  width: 7rem;
+  padding: .7rem;
+  background-color: #faf6f6;
   text-align: center;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -64,7 +65,7 @@
 
 .titulo-principal a {
   text-decoration: none;
-  color: #faf6f6;
+  color: #0f0e0e;
 }
 
 .arrow {
@@ -82,6 +83,13 @@
   width: 2rem;
   height: auto;
   color: #faf6f6;
+  position: relative;
+}
+
+.arrow a {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
 }
 
 /* CARRUSEL */
@@ -104,12 +112,12 @@
   padding: 2rem;
   /* redes */
   /* contacto */
+  /* textos */
 }
 
 .footer h5 {
   color: #faf6f6;
   text-align: center;
-  margin-top: -.5rem;
 }
 
 .footer .footer__redes--iconos {
@@ -133,6 +141,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 90%;
+  margin-top: 1rem;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -140,5 +149,53 @@
 
 .footer .footer__contacto label {
   color: #faf6f6;
+  padding-top: 5px;
+}
+
+.footer .footer__contacto .footer__contacto--input {
+  border-radius: .4rem;
+}
+
+.footer .footer__contacto .footer__contacto--btn {
+  padding: .2rem .6rem;
+  border-radius: .4rem;
+}
+
+.footer .footer__textos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-top: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .footer__textos p {
+  color: #faf6f6;
+  height: 2rem;
+}
+
+.footer .footer__textos .footer__textos--arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer .footer__textos .footer__textos--arrow svg {
+  width: 2rem;
+  height: 2rem;
+  color: #faf6f6;
+  position: relative;
+}
+
+.footer .footer__textos .footer__textos--arrow a {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
 }
 /*# sourceMappingURL=estilos.css.map */
