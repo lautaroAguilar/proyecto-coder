@@ -69,7 +69,7 @@ html{
     margin: 5rem 0; 
     width: 150px;
     padding: 15px 30px;
-    background-color: #ffffff;
+    background-color: #faf6f6;
     border-radius: 10px;
     text-align: center;
     align-self: center;
@@ -79,17 +79,25 @@ html{
     text-decoration: none;
     color: black;
 }
+/* CONTACTO */
+
 /* Formulario */
+.seccion-formulario{
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: flex-end;
+    padding: 3rem 0;
+
+}
 .form-container{
     display: flex;
     width: 50%;
     justify-content: center;
-   
     
 }
 
 .form label{
-    color: #faf6f688;
+    color: #faf6f6;
     
 }
 .form__input{
@@ -97,8 +105,9 @@ html{
     width: 20rem;
     height: 2.5rem;
     border-radius: 5px;
+    color: #faf6f6;
     background-color: #c4c4c400;
-    border: solid 1px #faf6f68f;
+    border: solid 1px #faf6f6;
      
 }
 .form__btn{
@@ -106,9 +115,9 @@ html{
     height: 2.5rem;
     margin-top: 2rem;
     border-radius: 5px;
-    background-color: #9c8f8f00;
+    background-color: #faf6f6;
     color: #0f0e0e;
-    border: solid 1px #0f0e0e;
+    border: solid 1px #faf6f6;
     
 }
 .form__btn2{
@@ -116,8 +125,9 @@ html{
     height: 2.5rem;
     margin-top: 2rem;
     border-radius: 5px;
-    background-color: #0f0e0e;
-    color: #faf6f6;
+    background-color: #faf6f6;
+    color: #0e0e0e;
+    border: solid 1px #faf6f6;
 }
 /* Carrusel */
 .carousel{
