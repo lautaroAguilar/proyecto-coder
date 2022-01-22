@@ -363,4 +363,48 @@
   color: #faf6f6;
   text-decoration: none;
 }
+
+.form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.form label {
+  color: #faf6f6;
+}
+
+.form__input {
+  display: block;
+  width: 20rem;
+  height: 2.5rem;
+  color: #faf6f6;
+  border-radius: 5px;
+  background-color: #c4c4c400;
+  border: solid 1px #faf6f6;
+}
+
+.form__btn {
+  width: 49.2%;
+  height: 2.5rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  background-color: #faf6f6;
+  color: #0f0e0e;
+  border: solid 1px #faf6f6;
+}
+
+.form__btn2 {
+  width: 49.2%;
+  height: 2.5rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  background-color: #faf6f6;
+  color: #0f0e0e;
+  border: solid 1px #faf6f6;
+}
 /*# sourceMappingURL=estilos.css.map */
