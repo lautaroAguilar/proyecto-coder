@@ -1,13 +1,9 @@
-$primary: #0f0e0e;
-$secondary: #faf6f6;
 
-$theme-colors: ("primary": $primary,
-    "secondary": $secondary, );
 
 /* IMPORTS */
 
 
-
+@import "variables";
 @import "home";
 @import "quienes-somos";
 @import "catalogo"; 
