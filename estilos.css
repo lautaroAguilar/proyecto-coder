@@ -15,10 +15,10 @@ html{
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: minmax(7rem, auto);
     grid-template-areas:    
-     "landing landing"
-     "carrusel carrusel"
-     "footer footer";
-     
+    "landing landing"
+    "carrusel carrusel"
+    "footer footer";
+    
 }
 
 .container-landing{
@@ -355,9 +355,6 @@ html{
     .wwa{
         width: 500px;
         height: auto;
-    }
-    .wwa__quienes-somos{
-        
     }
     .wwa__quienes-somos--parrafo{
         margin: 1rem 10rem;
